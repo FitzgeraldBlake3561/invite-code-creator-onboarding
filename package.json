@@ -1,0 +1,13 @@
+{
+  "name": "invite-code-creator-onboarding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/creator_onboarding.ts",
+    "test": "node --experimental-strip-types --test src/creator_onboarding.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  }
+}
